@@ -28,15 +28,19 @@ body{
     position: absolute;
     padding: 25px;
     z-index: 3;
-width: 200px
+width: 200px;
+ 
 }
 .wa_cont{
     display: block;
     position: absolute;
     padding: 25px;
     z-index: 3;
-    margin: 0 auto;
+   transform: translate(-50%);
+  margin-left: 50%;
+    
 }
+
 .wa a, .wa_cont a{
     display: block;
     text-decoration: none;
@@ -460,4 +464,21 @@ a {
   width: calc(20vw - 30px);
   height: 15vw
 }
+.all{
+  display: flex;
+  justify-content: space-between
+}
+.foto img{
+  width: 25vw;
+  margin-top: 150px;
+  position: absolute;
+  z-index: 5;
+  transform: translate(5vw);
+  box-shadow: 25px 25px 45px 5px blue;
+  opacity: 0.9;
+}
 
+
+.text{
+  
+}
